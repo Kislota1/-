@@ -1,0 +1,23 @@
+#include <iostream>
+
+int main()
+{
+std::puts("please enter a and b for 'ax+b=0':'");
+float a = 0;
+float b = 0;
+float x = 0;
+
+std::scanf("%d,%d", &a, &b);
+if (a == 0)
+{
+std::printf("delit na 0 nel8z9");
+}
+else
+{
+float x = -b/a;
+std::printf("solution:%d/n", x);
+}
+
+
+return 0;
+}
